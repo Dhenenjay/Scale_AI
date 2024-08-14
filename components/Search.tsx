@@ -100,7 +100,7 @@ export const Search: FC<SearchProps> = ({ onSearch, onAnswerUpdate, onDone }) =>
   };
 
   const handleSave = () => {
-    if (apiKey.length !== 51) {
+    if (apiKey.length !== 600) {
       alert("Please enter a valid API key.");
       return;
     }
